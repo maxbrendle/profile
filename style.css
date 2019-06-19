@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-  color: #E0F2E9;
+  color: #B28B84;
 }
 
 .btn_green {
@@ -55,7 +55,7 @@ a:hover {
 }
 
 .btn_green:hover {
-  background-color: #5A5353;
+  background-color: #E0F2E9;
 }
 
 /*.container {
