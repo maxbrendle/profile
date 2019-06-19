@@ -90,8 +90,7 @@ a:hover {
 
 .fab {
   color: #07393C;
-  height: 48px;
-  width: 48px;
+  font-size: 40px;
 }
 
 .fab:hover {
