@@ -1,0 +1,95 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    padding: 24px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    padding: 24px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    padding: 24px;
+    margin: 0 auto;
+  }
+}
+
+body {
+  background-color: #F0EDEE;
+  font-family: sans-serif;
+  color: #40798C;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300px;
+}
+h1, h2{
+  color:#07393C;
+  font-family: poppins;
+}
+
+a {
+  text-decoration: none;
+  color: #5A5353;
+}
+
+a:hover {
+  color: #B28B84;
+}
+
+.btn_green {
+  padding: 8px;
+  border-radius: 3px;
+  background-color: #07393C;
+  color: white;
+  display: inline-block;
+}
+
+.btn_green:hover {
+  background-color: #5A5353;
+}
+
+/*.container {
+  width: 500px;
+  padding: 24px;
+  margin: 0 auto;
+}
+*/
+.card {
+  padding:16px;
+  text-align: center;
+  margin: 16 auto;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: (2px, 2px, 3px, rgb(240,240,240));
+}
+
+.round_pic_small{
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+}
+
+.list-in-line > li {
+  list-style: none;
+  display: inline-block;
+}
+.list-in-line {
+  padding: 0;
+}
+
+.fab {
+  color: #07393C;
+  height: 24px;
+  width: 24px;
+}
